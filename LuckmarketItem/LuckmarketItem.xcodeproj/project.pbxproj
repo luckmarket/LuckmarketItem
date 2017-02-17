@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E90BCB71E56984E0074FC6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90BCB61E56984E0074FC6C /* main.m */; };
+		8E90BCBA1E56984E0074FC6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90BCB91E56984E0074FC6C /* AppDelegate.m */; };
+		8E90BCBD1E56984E0074FC6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90BCBC1E56984E0074FC6C /* ViewController.m */; };
+		8E90BCC01E56984E0074FC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E90BCBE1E56984E0074FC6C /* Main.storyboard */; };
+		8E90BCC21E56984E0074FC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E90BCC11E56984E0074FC6C /* Assets.xcassets */; };
+		8E90BCC51E56984E0074FC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E90BCC31E56984E0074FC6C /* LaunchScreen.storyboard */; };
+		8E90BCD01E56984E0074FC6C /* LuckmarketItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90BCCF1E56984E0074FC6C /* LuckmarketItemTests.m */; };
+		8E90BCDB1E56984E0074FC6C /* LuckmarketItemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90BCDA1E56984E0074FC6C /* LuckmarketItemUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E90BCCC1E56984E0074FC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E90BCAA1E56984E0074FC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E90BCB11E56984E0074FC6C;
+			remoteInfo = LuckmarketItem;
+		};
+		8E90BCD71E56984E0074FC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E90BCAA1E56984E0074FC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E90BCB11E56984E0074FC6C;
+			remoteInfo = LuckmarketItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E90BCB21E56984E0074FC6C /* LuckmarketItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckmarketItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E90BCB61E56984E0074FC6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E90BCB81E56984E0074FC6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E90BCB91E56984E0074FC6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E90BCBB1E56984E0074FC6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E90BCBC1E56984E0074FC6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E90BCBF1E56984E0074FC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E90BCC11E56984E0074FC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E90BCC41E56984E0074FC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E90BCC61E56984E0074FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E90BCCB1E56984E0074FC6C /* LuckmarketItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckmarketItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E90BCCF1E56984E0074FC6C /* LuckmarketItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckmarketItemTests.m; sourceTree = "<group>"; };
+		8E90BCD11E56984E0074FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E90BCD61E56984E0074FC6C /* LuckmarketItemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckmarketItemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E90BCDA1E56984E0074FC6C /* LuckmarketItemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckmarketItemUITests.m; sourceTree = "<group>"; };
+		8E90BCDC1E56984E0074FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E90BCAF1E56984E0074FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90BCC81E56984E0074FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90BCD31E56984E0074FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E90BCA91E56984E0074FC6C = {
+			isa = PBXGroup;
+			children = (
+				8E90BCB41E56984E0074FC6C /* LuckmarketItem */,
+				8E90BCCE1E56984E0074FC6C /* LuckmarketItemTests */,
+				8E90BCD91E56984E0074FC6C /* LuckmarketItemUITests */,
+				8E90BCB31E56984E0074FC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E90BCB31E56984E0074FC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E90BCB21E56984E0074FC6C /* LuckmarketItem.app */,
+				8E90BCCB1E56984E0074FC6C /* LuckmarketItemTests.xctest */,
+				8E90BCD61E56984E0074FC6C /* LuckmarketItemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E90BCB41E56984E0074FC6C /* LuckmarketItem */ = {
+			isa = PBXGroup;
+			children = (
+				8E90BCB81E56984E0074FC6C /* AppDelegate.h */,
+				8E90BCB91E56984E0074FC6C /* AppDelegate.m */,
+				8E90BCBB1E56984E0074FC6C /* ViewController.h */,
+				8E90BCBC1E56984E0074FC6C /* ViewController.m */,
+				8E90BCBE1E56984E0074FC6C /* Main.storyboard */,
+				8E90BCC11E56984E0074FC6C /* Assets.xcassets */,
+				8E90BCC31E56984E0074FC6C /* LaunchScreen.storyboard */,
+				8E90BCC61E56984E0074FC6C /* Info.plist */,
+				8E90BCB51E56984E0074FC6C /* Supporting Files */,
+			);
+			path = LuckmarketItem;
+			sourceTree = "<group>";
+		};
+		8E90BCB51E56984E0074FC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E90BCB61E56984E0074FC6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E90BCCE1E56984E0074FC6C /* LuckmarketItemTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E90BCCF1E56984E0074FC6C /* LuckmarketItemTests.m */,
+				8E90BCD11E56984E0074FC6C /* Info.plist */,
+			);
+			path = LuckmarketItemTests;
+			sourceTree = "<group>";
+		};
+		8E90BCD91E56984E0074FC6C /* LuckmarketItemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E90BCDA1E56984E0074FC6C /* LuckmarketItemUITests.m */,
+				8E90BCDC1E56984E0074FC6C /* Info.plist */,
+			);
+			path = LuckmarketItemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E90BCB11E56984E0074FC6C /* LuckmarketItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E90BCDF1E56984E0074FC6C /* Build configuration list for PBXNativeTarget "LuckmarketItem" */;
+			buildPhases = (
+				8E90BCAE1E56984E0074FC6C /* Sources */,
+				8E90BCAF1E56984E0074FC6C /* Frameworks */,
+				8E90BCB01E56984E0074FC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckmarketItem;
+			productName = LuckmarketItem;
+			productReference = 8E90BCB21E56984E0074FC6C /* LuckmarketItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E90BCCA1E56984E0074FC6C /* LuckmarketItemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E90BCE21E56984E0074FC6C /* Build configuration list for PBXNativeTarget "LuckmarketItemTests" */;
+			buildPhases = (
+				8E90BCC71E56984E0074FC6C /* Sources */,
+				8E90BCC81E56984E0074FC6C /* Frameworks */,
+				8E90BCC91E56984E0074FC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E90BCCD1E56984E0074FC6C /* PBXTargetDependency */,
+			);
+			name = LuckmarketItemTests;
+			productName = LuckmarketItemTests;
+			productReference = 8E90BCCB1E56984E0074FC6C /* LuckmarketItemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E90BCD51E56984E0074FC6C /* LuckmarketItemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E90BCE51E56984E0074FC6C /* Build configuration list for PBXNativeTarget "LuckmarketItemUITests" */;
+			buildPhases = (
+				8E90BCD21E56984E0074FC6C /* Sources */,
+				8E90BCD31E56984E0074FC6C /* Frameworks */,
+				8E90BCD41E56984E0074FC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E90BCD81E56984E0074FC6C /* PBXTargetDependency */,
+			);
+			name = LuckmarketItemUITests;
+			productName = LuckmarketItemUITests;
+			productReference = 8E90BCD61E56984E0074FC6C /* LuckmarketItemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E90BCAA1E56984E0074FC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "深圳市网信科技有限公司";
+				TargetAttributes = {
+					8E90BCB11E56984E0074FC6C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8E90BCCA1E56984E0074FC6C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E90BCB11E56984E0074FC6C;
+					};
+					8E90BCD51E56984E0074FC6C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E90BCB11E56984E0074FC6C;
+					};
+				};
+			};
+			buildConfigurationList = 8E90BCAD1E56984E0074FC6C /* Build configuration list for PBXProject "LuckmarketItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E90BCA91E56984E0074FC6C;
+			productRefGroup = 8E90BCB31E56984E0074FC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E90BCB11E56984E0074FC6C /* LuckmarketItem */,
+				8E90BCCA1E56984E0074FC6C /* LuckmarketItemTests */,
+				8E90BCD51E56984E0074FC6C /* LuckmarketItemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E90BCB01E56984E0074FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E90BCC51E56984E0074FC6C /* LaunchScreen.storyboard in Resources */,
+				8E90BCC21E56984E0074FC6C /* Assets.xcassets in Resources */,
+				8E90BCC01E56984E0074FC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90BCC91E56984E0074FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90BCD41E56984E0074FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E90BCAE1E56984E0074FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E90BCBD1E56984E0074FC6C /* ViewController.m in Sources */,
+				8E90BCBA1E56984E0074FC6C /* AppDelegate.m in Sources */,
+				8E90BCB71E56984E0074FC6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90BCC71E56984E0074FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E90BCD01E56984E0074FC6C /* LuckmarketItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90BCD21E56984E0074FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E90BCDB1E56984E0074FC6C /* LuckmarketItemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E90BCCD1E56984E0074FC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E90BCB11E56984E0074FC6C /* LuckmarketItem */;
+			targetProxy = 8E90BCCC1E56984E0074FC6C /* PBXContainerItemProxy */;
+		};
+		8E90BCD81E56984E0074FC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E90BCB11E56984E0074FC6C /* LuckmarketItem */;
+			targetProxy = 8E90BCD71E56984E0074FC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E90BCBE1E56984E0074FC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E90BCBF1E56984E0074FC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E90BCC31E56984E0074FC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E90BCC41E56984E0074FC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E90BCDD1E56984E0074FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E90BCDE1E56984E0074FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E90BCE01E56984E0074FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckmarketItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyan.restart.LuckmarketItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E90BCE11E56984E0074FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckmarketItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyan.restart.LuckmarketItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E90BCE31E56984E0074FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckmarketItemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyan.restart.LuckmarketItemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckmarketItem.app/LuckmarketItem";
+			};
+			name = Debug;
+		};
+		8E90BCE41E56984E0074FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckmarketItemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyan.restart.LuckmarketItemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckmarketItem.app/LuckmarketItem";
+			};
+			name = Release;
+		};
+		8E90BCE61E56984E0074FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckmarketItemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyan.restart.LuckmarketItemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckmarketItem;
+			};
+			name = Debug;
+		};
+		8E90BCE71E56984E0074FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckmarketItemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyan.restart.LuckmarketItemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckmarketItem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E90BCAD1E56984E0074FC6C /* Build configuration list for PBXProject "LuckmarketItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E90BCDD1E56984E0074FC6C /* Debug */,
+				8E90BCDE1E56984E0074FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E90BCDF1E56984E0074FC6C /* Build configuration list for PBXNativeTarget "LuckmarketItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E90BCE01E56984E0074FC6C /* Debug */,
+				8E90BCE11E56984E0074FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E90BCE21E56984E0074FC6C /* Build configuration list for PBXNativeTarget "LuckmarketItemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E90BCE31E56984E0074FC6C /* Debug */,
+				8E90BCE41E56984E0074FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E90BCE51E56984E0074FC6C /* Build configuration list for PBXNativeTarget "LuckmarketItemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E90BCE61E56984E0074FC6C /* Debug */,
+				8E90BCE71E56984E0074FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E90BCAA1E56984E0074FC6C /* Project object */;
+}
